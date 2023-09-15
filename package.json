@@ -1,14 +1,20 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "dependencies": {
+    "express": "^4.14.0",
+    "@freecodecamp/example": "^1.2.13"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  },
+  "author": "hewanli",
+  "description": "test sub package",
+  "keywords": ["freecodecamp", "nodejs", "package"],
+  "license": "npm管理测试",
+  "version": "1.0.0"
 }
